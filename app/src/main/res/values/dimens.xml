@@ -1,0 +1,7 @@
+<resources>
+    <!-- TODO -->
+    <dimen name="extraMargin_16dp">16dp</dimen>
+    <dimen name="collapsingToolBar_190dp">200dp</dimen>
+    <dimen name="standardMargin_8dp">8dp</dimen>
+    <dimen name="detailFabMargin_32dp">32dp</dimen>
+</resources>

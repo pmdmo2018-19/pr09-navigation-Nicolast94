@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.ListPreference
+        android:defaultValue="@string/prefLoremType"
+        android:entries="@array/listEntries"
+        android:entryValues="@array/listEntries"
+        android:icon="@drawable/ic_wrap_text_black_24dp"
+        android:key="@string/listPreferenceKey"
+        android:summary="ListPreference summary"
+        android:title="@string/loremType_Settings_title"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
